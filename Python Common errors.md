@@ -1,4 +1,4 @@
-Python Gotcha: `list * n` Creates Shared References
+## Don't use [[]] * n to create empty list of lists
 
 ### ❗ The Problem:
 Using multiplication to create a list of lists can lead to **unexpected behavior** due to **shared references**.
